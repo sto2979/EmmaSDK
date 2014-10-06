@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.resources    = 'EmmaSDK/*.png'
   spec.requires_arc = true
   spec.dependency 'ReactiveCocoa'
-  spec.dependency 'SBJSON'
+  spec.dependency 'SBJson'
   spec.dependency 'SMWebRequest'
 end
